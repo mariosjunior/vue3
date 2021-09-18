@@ -1,0 +1,13 @@
+query GetTopicChildren {
+	Topic(topicId: "37e19797-a0f0-4131-abec-32acf3d0fd1b") {
+		children {
+			name
+			topicId
+			questionsCount
+			visible
+			course{
+				courseId
+			}
+		}
+	}
+}

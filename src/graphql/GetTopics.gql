@@ -1,0 +1,16 @@
+query  {
+	Course(courseId: "b4bf226b-4695-42f6-8fb3-03bf9f4462e5") {
+		topicsCount
+		topics {
+			name
+			topicId
+			description
+			visible
+			course {
+				name
+				courseId
+			}
+			questionsCount
+		}
+	}
+}

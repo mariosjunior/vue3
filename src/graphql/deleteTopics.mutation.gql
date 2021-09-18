@@ -1,0 +1,5 @@
+mutation DeleteTopic($id: ID!) {
+	DeleteTopic(topicId: $id) {
+		topicId
+	}
+}
